@@ -10,19 +10,19 @@ O objetivo deste projeto é construir um modelo de Machine Learning que analise 
 
 O projeto é desenvolvido em um notebook Jupyter (`inicial.ipynb`) e segue os seguintes passos:
 
-1.  **Carregamento dos Dados** 📂:
+1.  **Carregamento dos Dados** :
     *   Os dados dos clientes são carregados a partir do arquivo `clientes.csv`.
 
-2.  **Pré-processamento dos Dados** 📊:
+2.  **Pré-processamento dos Dados** :
     *   As informações em texto (como `profissao`, `mix_credito` e `comportamento_pagamento`) são transformadas em números para que o modelo de IA possa entendê-las.
 
-3.  **Treinamento do Modelo** 🧠:
+3.  **Treinamento do Modelo** :
     *   Dois modelos de Inteligência Artificial são treinados:
         *   **Random Forest** (Árvore de Decisão)
         *   **KNN** (K-Nearest Neighbors)
     *   Os modelos aprendem a partir dos dados de clientes existentes para identificar padrões.
 
-4.  **Avaliação do Modelo** ✅:
+4.  **Avaliação do Modelo** :
     *   Os modelos são avaliados para ver qual deles faz as previsões mais precisas. Neste caso, o modelo **Random Forest** foi o melhor, com uma precisão de aproximadamente 82%.
 
 5.  **Novas Previsões** 🔮:
@@ -50,4 +50,3 @@ Para executar o projeto, você precisa ter o Python e o Jupyter Notebook instala
 *   `clientes.csv`: A base de dados com as informações dos clientes.
 *   `novos_clientes.csv`: A base de dados com os novos clientes para fazer a previsão.
 *   `README.md`: Este arquivo que você está lendo. 😊
-# previsoes-ia
