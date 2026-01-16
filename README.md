@@ -25,7 +25,7 @@ O projeto é desenvolvido em um notebook Jupyter (`inicial.ipynb`) e segue os se
 4.  **Avaliação do Modelo** :
     *   Os modelos são avaliados para ver qual deles faz as previsões mais precisas. Neste caso, o modelo **Random Forest** foi o melhor, com uma precisão de aproximadamente 82%.
 
-5.  **Novas Previsões** 🔮:
+5.  **Novas Previsões** :
     *   O modelo treinado é usado para prever o score de crédito de novos clientes, que estão no arquivo `novos_clientes.csv`.
 
 ## 🛠️ Como Usar
